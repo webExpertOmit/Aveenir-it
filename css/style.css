@@ -1,0 +1,757 @@
+/*
+===========================
+Common CSS Start Here
+===========================
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: 'Oswald', sans-serif;
+    color: #222;
+}
+
+.bg-gray {
+    background: #454545;
+}
+
+.bg-black {
+    background: #000000;
+}
+
+.primary-color {
+    color: #FF5722;
+}
+
+.secondary-color {
+    color: #f52jh1;
+}
+
+.nav-btn{
+    border: 2px solid #FF5722;
+    background: none;
+    padding: 8px 30px;
+    border-radius: 20px;
+    color: #FF5722;
+    text-transform: capitalize;
+}
+.primary-btn{
+    border: 1px solid #FF5722;
+    background:#FF5722;
+    padding: 10px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.primary-btn:hover{
+    border: 1px solid #FF5722;
+    background:none;
+    color:#FF5722;
+    
+}
+
+.secondary-btn{
+    border: 1px solid #FF5722;
+    background:none;
+    padding: 10px 30px;
+    color:#FF5722;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.secondary-btn:hover{
+    background:#FF5722;
+    color: #fff;
+    
+}
+.section-title{
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-title h6{
+    color:#FF5722;
+}
+.section-title h6::after{
+    content: "\f141";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-left: 10px;
+}
+.banner-section{
+    background-image: url(../img/about-bg.jpg);
+    padding: 100px 0px;
+    background-size: cover;
+}
+.banner-section h1{
+    color: #fff;
+    font-size: 55px;
+    text-transform: capitalize;
+}
+
+
+
+
+/*
+===========================
+Common CSS End Here
+===========================
+*/
+
+
+
+/*
+===============================
+Header Section Css start
+===============================
+*/
+.top-menu-section{
+    padding: 3px 0px;
+}
+.top-menu-section ul li a{
+    color: #fff;
+    font-size: 12px;
+}
+.top-link{
+    padding:5px 10px;
+}
+.nav-top-link{
+    justify-content: flex-end;
+}
+
+
+
+
+.main-menu-section{
+    padding: 0px 0px;
+}
+.main-menu-area .logo{
+    width: 80px;
+}
+.main-menu-area img{
+    width: 100%;
+}
+.main-menu-area ul li a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 15px;
+    display: block;
+    letter-spacing: 1.1px;
+}
+.main-menu-area ul li a:hover{
+    color:#f57f37;
+    transition: .4s;
+}
+.main-menu-area ul{
+    margin-left: 80px;
+}
+.bars{
+    color: #fff;
+}
+.fixed .main-menu-section{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #000;
+    z-index: 999;
+    padding: 0;
+}
+.fixed .main-menu-area .logo{
+    width: 60px;
+}
+
+
+
+/*
+===============================
+Header Section Css End
+===============================
+*/
+
+
+
+
+/*
+===========================
+Slider CSS Start Here
+===========================
+*/
+.slider-area{
+    position: relative;
+}
+.slider-content{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 500px;
+    color: #fff;
+}
+.style{
+    width: 60px;
+    height: 3px;
+    background:#f57f37; 
+    margin: 15px 0px;
+}
+.slider-content h1{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.slider-area::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+}
+
+
+/*
+===========================
+Slider CSS End Here
+===========================
+*/
+
+
+
+
+
+
+
+/*
+===========================
+Package CSS Start Here
+===========================
+*/
+.package-section{
+    padding: 60px 0px;
+}
+.package-content{
+    text-align: center;
+    padding: 30px 10px;
+}
+.package-content p{
+    font-size: 11px;
+}
+.package-title {
+    margin-bottom: 35px;
+}
+.package-title h2{
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.package-title p{
+    font-size: 14px;
+}
+.package-item{
+    text-align: center;
+    padding: 40px 10px;
+    margin-bottom: 15px;
+}
+.package-item h4{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 15px 0px;
+}
+.package-item i{
+    font-size: 40px;
+}
+.package-area{
+    position: absolute;
+    margin-top: -50%;
+    transform: translate(0%, 52%);
+    z-index: 1;
+}
+
+/*
+===========================
+Package CSS End Here
+===========================
+*/
+
+
+/*
+===========================
+Why Us CSS End Here
+===========================
+*/
+.why-section{
+    padding: 100px 0px;
+}
+.why-section p{
+    color: #222;
+}
+.why-area i{
+    font-size: 36px;
+}
+.why-area h6{
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.why-area{
+    margin-top: 15px;
+}
+
+
+/*
+===========================
+Why Us CSS End Here
+===========================
+*/
+
+ 
+
+
+
+/*
+===========================
+Services CSS Start Here
+===========================
+*/
+.services-section{
+    padding-top: 50px;
+    padding-bottom: 120px;
+    margin-top: 50px;
+}
+.services-content{
+    width: 280px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 3px 0px #000;
+    position: absolute;
+    margin-top: -50px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+.services-content i{
+    font-size: 36px;
+}
+.services-content h5{
+    font-size: 16px;
+}
+.services-content span{
+    font-size: 12px;
+}
+.services-item{
+    margin-top: 50px;
+}
+/*
+===========================
+Services CSS End Here
+===========================
+*/
+
+
+
+
+
+
+/*
+===========================
+Product CSS Start Here
+===========================
+*/
+.product-section{
+    padding: 100px 0px;
+}
+.product-section .section-title h2{
+    color: #fff;
+}
+.product-item{
+    text-align: center;
+    box-shadow: 0px 0px 1px 0px #fff;
+    padding: 30px 30px;
+    margin-top:  35px;
+}
+.product-item h4{
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.product-area{
+    text-align: center;
+}
+/*
+===========================
+Product CSS End Here
+===========================
+*/
+
+
+
+
+
+
+/*
+===========================
+Client CSS Start Here
+===========================
+*/
+.client-section{
+    padding: 100px 0px;
+}
+.client-area{
+    margin-top: 50px;
+}
+.client-area img{
+    margin-top: 20px;
+}
+/*
+===========================
+Client CSS End Here
+===========================
+*/
+
+
+
+
+
+/*
+===========================
+Protfolio CSS Start Here
+===========================
+*/
+.protfollio-section{
+    padding: 100px 0px;
+}
+.protfollio-section .section-title h2{
+    color: #fff;
+} 
+.protfolio-area img{
+    margin-top: 50px;
+}
+.protfolio-area{
+    text-align: center;
+}
+
+/*
+===========================
+Protfolio CSS End Here
+===========================
+*/
+
+
+
+/*
+===========================
+About CSS Start Here
+===========================
+*/
+.about-section{
+    padding: 100px 0px;
+}
+.about-content p{
+    color: #222;
+}
+.about-pic{
+    background:#FF5722;
+    margin: 20px;
+}
+.about-pic img{
+    position: relative;
+    left: 35px;
+    top: 35px;
+}
+.about-area{
+    margin-top: 50px;
+}
+.about-content{
+    padding-left: 70px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+/*
+===========================
+About CSS End Here
+===========================
+*/
+
+/*
+===========================
+Counter CSS End Here
+===========================
+*/
+.count-section{
+    padding: 80px 0px;
+    text-align: center;
+}
+.count-section span{
+    color: #FF5722;
+    font-size: 55px;
+    font-weight: 600;
+}
+.count-area{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 1px 8px 5px, rgba(0, 0, 0, 0.23) 0px 0px 0px;
+    margin-top: 10px;
+}
+
+/*
+===========================
+Counter CSS End Here
+===========================
+*/
+
+
+
+
+/*===============================
+   Footer Section Start Here 
+ ===============================*/
+.top-footer-area{
+    background: #FF5722;
+    padding: 30px;
+    position: relative;
+    bottom: -80px;
+}
+.top-footer-item h2{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.top-footer-item input{
+
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    
+}
+
+.top-footer-item input{
+     position: relative;
+    width: 220px;
+}
+.top-footer-item input:focus{
+    outline: 0;
+}
+.top-footer-item .s-btn{
+    height: 50px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: #222;
+    color: #fff;
+    border: none;
+    position: absolute;
+    left: 180px;
+}
+.top-footer-item .s-btn:focus{
+    outline: 0;
+}
+.top-footer-item p{
+    color: #fff;
+    margin: 0;
+}
+
+.top-footer-item .social{
+    padding: 0px 10px;
+}
+.top-footer-item .social i{
+    font-size: 16px;
+    background:#FF5722;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+}
+.top-footer-item .social i:hover{
+    background: #fff;
+    color: #222;
+}
+
+.footer-bottom{
+    background: #222;
+    padding-top: 100px;
+}
+.footer-bottom-item{
+    padding: 50px 0px;
+}
+.footer-bottom-item h2{
+    font-size: 20px;
+    color:#c4c4c4;
+    margin-bottom: 20px;
+}
+.footer-bottom-item p{
+    color:#c4c4c4;
+    font-size: 15px;
+}
+.footer-bottom-item .f-social i{
+    padding: 10px;
+    color:#c4c4c4; 
+    transition: .3s;
+}
+.footer-bottom-item .f-social i:hover{
+    transform:rotate(360deg);
+    color:#FF5722;  
+}
+.footer-bottom-item ul{
+    list-style: none;
+}
+.footer-bottom-item ul li .about::before{
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+.footer-bottom-item ul li .about:hover{
+    color:#FF5722; 
+}
+.footer-bottom-item ul li .about{
+    color: #c4c4c4;
+    text-decoration: none;
+    margin-bottom: 15px;
+    border-bottom: .2px solid #fff;
+    display: block;
+}
+.footer-bottom-item h2{
+    text-transform: uppercase;
+}
+.permaneent-logo{
+    margin-top: 10px;
+}
+.fotter-copy-right{
+    border-top: .2px solid #fff;
+}
+.copy-right ul{
+    justify-content:flex-end;
+}
+.copy-right p{
+    padding: 20px;
+    margin: 0;
+}
+
+
+/*===============================
+   Footer Section End Here 
+ ===============================*/
+
+
+
+/*
+===========================
+Arrow CSS Start Here
+===========================
+*/
+
+.top{
+    width: 45px;
+    height: 45px;
+    background: #111;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    line-height: 2;
+    border-radius: 5px;
+    transition: .5s;
+}
+.top:hover{
+    background:#FF5722; 
+}
+
+.top a{
+   color: #fff;
+}
+/*
+===========================
+Arrow CSS End Here
+===========================
+*/
+
+
+
+
+
+/*
+===========================
+===========================
+About Page  Start Here
+===========================
+===========================
+*/
+.our-about-section{
+    padding: 80px 0px;
+    color: #222;
+}
+.our-about-section p{
+    text-align: justify;
+}
+
+
+
+
+/*
+===========================
+===========================
+Services Page  Start Here
+===========================
+===========================
+*/
+.our-services-section{
+    padding: 80px 0px;
+    color: #222;
+}
+.our-services-section p{
+    text-align: justify;
+}
+.our-services-area{
+    padding: 80px 0px;
+    color: #222;
+    text-align: center;
+}
+.our-services-content i{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.our-services-content{
+    padding: 10px;
+    margin-top: 15px;
+}
+
+
+
+/*
+===========================
+Our About CSS Start Here
+===========================
+*/
+
+/*
+===========================
+Our About CSS End Here
+===========================
+*/
+

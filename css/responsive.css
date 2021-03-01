@@ -1,0 +1,288 @@
+ /*=====================================================================
+  Use a media query to add a breakpoint at min 1157px and max 1435px
+======================================================================*/
+
+ @media screen and (min-device-width: 1335px) and (max-device-width: 1435px) {
+     .package-area {
+         position: absolute;
+         margin-top: -55%;
+         transform: translate(0%, 50%);
+         z-index: 1;
+     }
+ }
+
+ @media screen and (min-device-width: 1200px) and (max-device-width: 1334px) {
+     .package-area {
+         position: absolute;
+         margin-top: -60%;
+         transform: translate(0%, 50%);
+         z-index: 1;
+     }
+
+ }
+
+
+
+ /*=====================================================================
+  Use a media query to add a breakpoint at min 992px and max 1199px
+======================================================================*/
+ @media screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+     .package-area {
+         position: inherit;
+         margin-top: -60%;
+     }
+
+     .package-item i {
+         font-size: 20px;
+     }
+
+     .package-item h4 {
+         font-size: 16px;
+     }
+
+     .package-item p {
+         font-size: 11px;
+     }
+ }
+
+
+
+
+ /*=====================================================================
+  Use a media query to add a breakpoint at min 768px and max 991px
+======================================================================*/
+ @media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+     .package-area {
+         position: inherit;
+         margin-top: 0%;
+         transform: translate(0%, 0%);
+         z-index: 1;
+     }
+
+     .services-content {
+         width: 200px;
+         padding: 10px;
+         margin-top: -30px;
+     }
+
+     .services-content i {
+         font-size: 22px;
+     }
+
+     .services-content h5 {
+         font-size: 11px;
+     }
+
+     .services-section {
+         margin-top: 0px;
+     }
+
+     .main-menu-area ul {
+         margin-left: 0px;
+     }
+      .top-footer-area{
+        text-align: center;
+    }
+    .top-footer-item .nav{
+        width: 100%;
+        justify-content: center;
+    }
+    .top-footer-item h2{
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+    .top-footer-item .s-btn{
+        left: 375px;
+    }
+
+
+
+ }
+
+
+
+
+ /*=====================================================================
+  Use a media query to add a breakpoint at min 576px and max 767px
+======================================================================*/
+ @media screen and (min-device-width: 576px) and (max-device-width: 767px) {
+     .slider-content h1 {
+         font-size: 20px;
+     }
+
+     .primary-btn {
+         font-size: 10px;
+         padding: 7px 25px;
+     }
+
+     .secondary-btn {
+         font-size: 10px;
+         padding: 7px 25px;
+     }
+
+
+     .package-area {
+         position: inherit;
+         margin-top: 0%;
+         transform: translate(0%, 0%);
+         z-index: 1;
+     }
+
+     .services-item {
+         margin-top: 80px;
+     }
+
+     .top-menu-section ul {
+         justify-content: center;
+     }
+
+     .main-menu-area ul {
+         margin-left: 0px;
+     }
+      .about-content {
+         padding-left: 0;
+         position: inherit;
+         margin-top: 50px;
+     }
+     
+     .top-footer-area{
+        text-align: center;
+    }
+    .top-footer-item .nav{
+        width: 100%;
+        justify-content: center;
+    }
+    .top-footer-item h2{
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+    .top-footer-item .s-btn{
+        left: 310px;
+    }
+     .footer-bottom-item h2{
+         margin-bottom: 10px;
+     }
+     .footer-bottom-item {
+        padding: 10px 0px;
+    }
+     .footer-bottom-item p{
+         font-size: 13px;
+     }
+     .copy-right p {
+        text-align: center;
+    }
+      .p-copy .nav{
+         justify-content: center;
+         width: 100%;
+     }
+ }
+
+
+ /*=====================================================================
+  Use a media query to add a breakpoint at min 300px and max 575px
+======================================================================*/
+ @media screen and (min-device-width: 300px) and (max-device-width: 575px) {
+     body {
+         font-size: 12px;
+     }
+
+     .package-area {
+         position: inherit;
+         margin-top: 0%;
+         transform: translate(0%, 0%);
+         z-index: 1;
+     }
+
+     .services-item {
+         margin-top: 80px;
+     }
+
+     .top-menu-section ul {
+         justify-content: center;
+     }
+
+     .top-menu-section ul li a {
+         font-size: 10px;
+     }
+
+     .slider-content {
+         display: none;
+     }
+
+     .package-title h2 {
+         font-size: 18px;
+     }
+
+     .package-title p {
+         font-size: 12px;
+     }
+
+     .primary-btn {
+         font-size: 10px;
+         padding: 7px 25px;
+     }
+
+     .section-title h2 {
+         font-size: 18px;
+     }
+
+     .section-title h6 {
+         font-size: 11px;
+     }
+
+     .services-section {
+         margin-top: 0px;
+     }
+
+     .main-menu-area ul {
+         margin-left: 0px;
+     }
+
+     .about-content {
+         padding-left: 0;
+         position: inherit;
+         margin-top: 50px;
+     }
+     .top-footer-area{
+        text-align: center;
+    }
+    .top-footer-item .nav{
+        width: 100%;
+        justify-content: center;
+    }
+    .top-footer-item h2{
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+     .s-area{
+         position: relative;
+     }
+    .top-footer-item .s-btn{
+        right: 0px;
+        bottom: 0px;
+    }
+     
+     
+     
+     .top-footer-item .nav li a i{
+         font-size: 8px;
+     }
+     .footer-bottom-item h2{
+         margin-bottom: 10px;
+     }
+     .footer-bottom-item {
+        padding: 10px 0px;
+    }
+     .footer-bottom-item p{
+         font-size: 13px;
+     }
+     .copy-right p {
+        text-align: center;
+    }
+     .p-copy .nav{
+         justify-content: center;
+         width: 100%;
+     }
+  
+
+ }
